@@ -1,0 +1,34 @@
+
+
+Steps for creating Account in Thingspeak
+
+Step 1: Create an account in Thingspeak
+Step 2: Create a channel in thingspeak
+step 3:  After that go to API keys tab over there 
+step 4:  Take down the Read and Write API keys which are used for reading and writing the data to cloud 
+
+Steps after cteating the Thingspeak
+
+   --Changes to the Program 
+     Step 1: Open the Tingspeak.py file 
+     Step 2: In the program there is an attribute named "Key=' ' " 
+     Step 3: If you want to write into cloud then paste Write Api key for that attribute
+     Step 4: If you want to Read from cloud then paste Read Api key for that attribute
+     Step 5: Run the code 
+
+   --Connecting 8266 Wifi modue to both arduino
+     Step 1: By taking the reference of Datasheet of 8266 Wifi modle connect pins 
+     Step 2: Open Wifi program in Arduino IDE
+     Step 3: Execute the program
+     Step 4: Open Serial monitor in Arduino in IDE
+     Step 5:  change baud rate to 115200 
+     Step 5: Type AT command over there if you get OK then Module is connected and working properly
+     Step 6:  Type AT+CWJAP="ssid","password"        // turn on wifi hotspot give your hotspot name as ssid and password over there.
+     Step 7:  if you get output as Ok Wifi connected then your Arduino board is successfully connected to Wifi 
+
+  --Connecting DHT11 Sensor to Arduino 
+     Step 1:  Take DHT 11  humidity and Temperature sensor and connect it to declared digital pin in arduino 
+  
+  
+  
+ 
